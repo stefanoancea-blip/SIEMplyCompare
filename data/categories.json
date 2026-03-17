@@ -1,0 +1,43 @@
+[
+  {
+    "id": "detection-response",
+    "label": "Detection & Response",
+    "description": "EDR, XDR, and incident response capabilities"
+  },
+  {
+    "id": "siem",
+    "label": "SIEM",
+    "description": "Security information and event management features"
+  },
+  {
+    "id": "managed-soc-mdr",
+    "label": "Managed SOC / MDR",
+    "description": "Managed detection and response and SOC services"
+  },
+  {
+    "id": "integrations",
+    "label": "Integrations",
+    "description": "Ecosystem and third-party integrations"
+  },
+  {
+    "id": "deployment-model",
+    "label": "Deployment model",
+    "description": "Cloud, on-premises, or hybrid deployment options"
+  },
+  {
+    "id": "pricing-model",
+    "label": "Pricing model",
+    "description": "Subscription, usage-based, or other pricing"
+  },
+  {
+    "id": "target-customer-size",
+    "label": "Target customer size",
+    "description": "SMB, mid-market, or enterprise focus"
+  },
+  {
+    "id": "log-storage",
+    "label": "Standard data retention",
+    "description": "Out of the box timeframe for data retention, including raw logs and telemetry",
+    "promptGuidance": "Use these score bands for standard data retention (included at no extra cost, raw logs/telemetry from endpoint, network, cloud, etc.): Score 5: 12 months or 365 days. Score 4: 6 months. Score 3: 90 days. Score 2: below 90 days. Score 1: Under 30 days or retention only as a paid add-on. Assign the score that matches the platform's standard retention; do not give 4 or 5 for 90 days or less. Options to extend retention beyond the default can be mentioned in the note."
+  }
+]

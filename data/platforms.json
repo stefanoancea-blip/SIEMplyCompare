@@ -1,0 +1,332 @@
+[
+  {
+    "id": "taegis-xdr",
+    "name": "Taegis XDR",
+    "description": "Sophos Taegis is a cloud-native extended detection and response (XDR) platform that unifies endpoint, server, firewall, and cloud data for faster detection and response. Standard data retention (included at no extra cost for raw logs/telemetry from endpoint, network, cloud, etc.) is 12 months (365 days); options to extend retention beyond that are available.",
+    "websiteUrl": "https://www.sophos.com/products/taegis",
+    "tags": [
+      "XDR",
+      "EDR",
+      "SIEM",
+      "MDR",
+      "Cloud"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "subscription",
+    "targetCustomerSize": "midmarket",
+    "categories": {
+      "detection-response": {
+        "score": 5,
+        "note": "Unified XDR with EDR, NDR, and identity correlation"
+      },
+      "siem": {
+        "score": 5,
+        "note": "Full SIEM with long-term retention and search"
+      },
+      "managed-soc-mdr": {
+        "score": 5,
+        "note": "Managed XDR and MDR services available"
+      },
+      "integrations": {
+        "score": 4,
+        "note": "Broad ecosystem; native Sophos stack integration"
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Cloud-native SaaS only"
+      },
+      "pricing-model": {
+        "score": 4,
+        "note": "Subscription per endpoint and workload"
+      },
+      "target-customer-size": {
+        "score": 4,
+        "note": "Strong for mid-market and enterprise"
+      },
+      "log-storage": {
+        "score": 5,
+        "note": "Standard data retention is 12 months (365 days) at no extra cost; options to extend available."
+      }
+    },
+    "strengths": [
+      "Single platform for EDR, NDR, SIEM, and MDR",
+      "Strong identity and cloud visibility",
+      "Clear pricing and packaging"
+    ],
+    "weaknesses": [
+      "Less brand recognition than some legacy vendors",
+      "Ecosystem smaller than largest players"
+    ],
+    "differentiators": [
+      "Unified data lake and native XDR story",
+      "MDR and managed services from same vendor"
+    ],
+    "notes": "Taegis is positioned as a modern, cloud-first alternative to legacy SIEM and point EDR.",
+    "sourceUrls": [
+      "https://www.sophos.com/products/taegis"
+    ],
+    "updatedAt": "2026-03-17"
+  },
+  {
+    "id": "microsoft-sentinel",
+    "name": "Microsoft Sentinel",
+    "description": "Microsoft Sentinel is a cloud-native SIEM and SOAR solution that ingests data from Microsoft 365, Azure, and many third-party sources.",
+    "websiteUrl": "https://www.microsoft.com/en-us/security/business/siem/microsoft-sentinel",
+    "tags": [
+      "SIEM",
+      "SOAR",
+      "Cloud",
+      "XDR"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "usage-based",
+    "targetCustomerSize": "enterprise",
+    "categories": {
+      "detection-response": {
+        "score": 4,
+        "note": "Strong with Defender stack; SOAR and automation"
+      },
+      "siem": {
+        "score": 5,
+        "note": "Full SIEM; scales with log volume"
+      },
+      "managed-soc-mdr": {
+        "score": 4,
+        "note": "MDR via partners and Microsoft services"
+      },
+      "integrations": {
+        "score": 5,
+        "note": "Very large connector ecosystem; Azure/M365 native"
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Cloud-only in Azure"
+      },
+      "pricing-model": {
+        "score": 3,
+        "note": "Usage-based; can be complex to estimate"
+      },
+      "target-customer-size": {
+        "score": 5,
+        "note": "Enterprise and Microsoft-heavy orgs"
+      },
+      "log-storage": {
+        "score": 3,
+        "note": "Standard data retention is 90 days out of the box; longer retention is available as a paid add-on."
+      }
+    },
+    "strengths": [
+      "Deep integration with Microsoft 365 and Azure",
+      "Large content and connector ecosystem",
+      "Familiar for organizations already on Microsoft"
+    ],
+    "weaknesses": [
+      "Pricing can be unpredictable at scale",
+      "Best value when heavily invested in Microsoft stack"
+    ],
+    "differentiators": [
+      "Native SOAR and automation",
+      "Single pane for Microsoft security portfolio"
+    ],
+    "notes": "Sentinel is a leading choice for enterprises standardizing on Microsoft security.",
+    "sourceUrls": [
+      "https://www.microsoft.com/en-us/security/business/siem/microsoft-sentinel"
+    ],
+    "updatedAt": "2026-03-17"
+  },
+  {
+    "id": "crowdstrike-falcon",
+    "name": "CrowdStrike Falcon",
+    "description": "CrowdStrike Falcon is an endpoint-centric XDR platform known for lightweight agents, threat intelligence, and cloud-native architecture.",
+    "websiteUrl": "https://www.crowdstrike.com/products/",
+    "tags": [
+      "XDR",
+      "EDR",
+      "Threat Intelligence",
+      "Cloud"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "subscription",
+    "targetCustomerSize": "enterprise",
+    "categories": {
+      "detection-response": {
+        "score": 5,
+        "note": "Industry-leading EDR and XDR; fast detection"
+      },
+      "siem": {
+        "score": 3,
+        "note": "Falcon LogScale adds SIEM; less traditional SIEM focus"
+      },
+      "managed-soc-mdr": {
+        "score": 5,
+        "note": "Falcon Complete and OverWatch MDR offerings"
+      },
+      "integrations": {
+        "score": 5,
+        "note": "Extensive partner and technology ecosystem"
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Cloud-native SaaS"
+      },
+      "pricing-model": {
+        "score": 4,
+        "note": "Subscription tiers; premium for full stack"
+      },
+      "target-customer-size": {
+        "score": 5,
+        "note": "Strong across SMB to enterprise"
+      },
+      "log-storage": {
+        "score": 3,
+        "note": "Standard data retention is 90 days; longer retention requires add-on."
+      }
+    },
+    "strengths": [
+      "Lightweight agent and strong endpoint visibility",
+      "Leading threat intelligence (Falcon Intelligence)",
+      "Proven MDR (Falcon Complete)"
+    ],
+    "weaknesses": [
+      "Full SIEM story is newer (LogScale)",
+      "Cost can be high for full platform"
+    ],
+    "differentiators": [
+      "Single lightweight agent for multiple modules",
+      "Falcon OverWatch 24/7 threat hunting"
+    ],
+    "notes": "CrowdStrike is often chosen for best-in-class EDR and MDR; SIEM is an add-on.",
+    "sourceUrls": [
+      "https://www.crowdstrike.com/products/"
+    ],
+    "updatedAt": "2026-03-17"
+  },
+  {
+    "id": "palo-alto-cortex-xsiam",
+    "name": "Palo Alto Cortex XSIAM",
+    "description": "Palo Alto Cortex XSIAM is an advanced security platform that integrates detection and response capabilities with security information and event management (SIEM) functionalities. It leverages AI and machine learning to enhance threat detection and streamline incident response.",
+    "websiteUrl": "https://www.paloaltonetworks.com/cortex/cortex-xsiam",
+    "tags": [
+      "XDR",
+      "SIEM",
+      "Cloud"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "subscription",
+    "targetCustomerSize": "enterprise",
+    "categories": {
+      "detection-response": {
+        "score": 5,
+        "note": "Highly effective in threat detection and response."
+      },
+      "siem": {
+        "score": 4,
+        "note": "Robust SIEM capabilities with advanced analytics."
+      },
+      "managed-soc-mdr": {
+        "score": 4,
+        "note": "Offers managed services for enhanced security."
+      },
+      "integrations": {
+        "score": 5,
+        "note": "Seamless integration with various security tools."
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Cloud-based deployment for scalability."
+      },
+      "pricing-model": {
+        "score": 4,
+        "note": "Flexible subscription pricing."
+      },
+      "target-customer-size": {
+        "score": 5,
+        "note": "Designed for large enterprises."
+      },
+      "log-storage": {
+        "score": 3,
+        "note": "Standard data retention is 90 days; options to extend may be available at extra cost."
+      }
+    },
+    "strengths": [
+      "Comprehensive threat detection capabilities",
+      "Strong integration with existing security tools",
+      "AI-driven analytics for faster incident response"
+    ],
+    "weaknesses": [
+      "Can be complex to implement",
+      "Higher cost compared to some competitors"
+    ],
+    "differentiators": [
+      "Unified platform for XDR and SIEM",
+      "Advanced machine learning algorithms",
+      "Focus on automation and orchestration"
+    ],
+    "updatedAt": "2026-03-17"
+  },
+  {
+    "id": "rapid7",
+    "name": "Rapid7",
+    "description": "Rapid7 provides a comprehensive suite of security solutions designed to help organizations detect and respond to threats effectively. Their platform integrates various security tools to enhance visibility and streamline incident response.",
+    "websiteUrl": "https://www.rapid7.com/",
+    "tags": [
+      "XDR",
+      "SIEM",
+      "Cloud"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "subscription",
+    "targetCustomerSize": "midmarket",
+    "categories": {
+      "detection-response": {
+        "score": 4,
+        "note": "Strong detection and response capabilities."
+      },
+      "siem": {
+        "score": 5,
+        "note": "Robust SIEM features for threat detection."
+      },
+      "managed-soc-mdr": {
+        "score": 4,
+        "note": "Offers managed detection and response services."
+      },
+      "integrations": {
+        "score": 5,
+        "note": "Wide range of integrations with other tools."
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Cloud-based deployment is flexible and scalable."
+      },
+      "pricing-model": {
+        "score": 4,
+        "note": "Subscription model is straightforward."
+      },
+      "target-customer-size": {
+        "score": 4,
+        "note": "Well-suited for midmarket and enterprise."
+      },
+      "log-storage": {
+        "score": 3,
+        "note": "Standard data retention is 90 days; longer retention may require additional cost."
+      }
+    },
+    "strengths": [
+      "Comprehensive security suite",
+      "Strong analytics and reporting",
+      "User-friendly interface",
+      "Excellent customer support"
+    ],
+    "weaknesses": [
+      "Can be expensive for smaller businesses",
+      "Complexity in some advanced features",
+      "Learning curve for new users"
+    ],
+    "differentiators": [
+      "Integrated threat intelligence",
+      "Focus on automation and orchestration",
+      "Strong community and support resources"
+    ],
+    "updatedAt": "2026-03-17"
+  }
+]
