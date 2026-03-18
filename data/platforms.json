@@ -112,7 +112,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days; longer retention available as a paid add-on."
+        "note": "Standard data retention is 90 days out of the box; longer retention requires additional cost."
       }
     },
     "strengths": [
@@ -179,7 +179,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days; longer retention available as add-on."
+        "note": "Standard data retention is 90 days; longer retention requires add-on (LogScale)."
       }
     },
     "strengths": [
@@ -261,6 +261,74 @@
       "Unified platform for XDR and SIEM",
       "Advanced machine learning algorithms",
       "Focus on automation and orchestration"
+    ],
+    "updatedAt": "2026-03-18"
+  },
+  {
+    "id": "rapid7",
+    "name": "Rapid7",
+    "description": "Rapid7 provides a comprehensive security platform offering solutions for vulnerability management, SIEM, and incident detection and response. It is known for its user-friendly interface and strong automation capabilities.",
+    "websiteUrl": "",
+    "tags": [
+      "SIEM",
+      "XDR",
+      "Vulnerability Management",
+      "Cloud"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "subscription",
+    "targetCustomerSize": "midmarket",
+    "categories": {
+      "detection-response": {
+        "score": 4,
+        "note": "Strong detection and response with effective EDR/XDR, but some advanced features require extra licensing."
+      },
+      "siem": {
+        "score": 4,
+        "note": "Strong SIEM features with effective detection and integrations, but advanced features and storage may require extra cost."
+      },
+      "managed-soc-mdr": {
+        "score": 4,
+        "note": "Strong managed detection and response with effective threat detection and integrations; some advanced features require extra licensing."
+      },
+      "integrations": {
+        "score": 4,
+        "note": "Strong integration ecosystem with broad third-party support."
+      },
+      "deployment-model": {
+        "score": 2,
+        "note": "Limited on-premises deployment options; primarily cloud-focused."
+      },
+      "pricing-model": {
+        "score": 2,
+        "note": "Pricing is high for large organizations and log storage costs can escalate quickly."
+      },
+      "target-customer-size": {
+        "score": 4,
+        "note": "Strong fit for SMB and mid-market; high pricing and storage costs may limit enterprise adoption."
+      },
+      "log-storage": {
+        "score": 3,
+        "note": "Standard data retention is 90 days; longer retention requires additional cost."
+      }
+    },
+    "strengths": [
+      "Intuitive and easy-to-use interface",
+      "Strong automation and orchestration features",
+      "Comprehensive vulnerability management",
+      "Wide integration ecosystem"
+    ],
+    "weaknesses": [
+      "Log storage costs can escalate quickly",
+      "MDR capabilities less mature than some competitors",
+      "Some advanced features require additional licensing",
+      "May not scale as well for very large enterprises"
+    ],
+    "differentiators": [
+      "Integrated vulnerability management and SIEM",
+      "User-friendly design for rapid onboarding",
+      "Strong automation for incident response",
+      "Broad third-party integrations"
     ],
     "updatedAt": "2026-03-18"
   }
