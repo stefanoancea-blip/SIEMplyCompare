@@ -46,7 +46,7 @@ export default function Footer() {
         </div>
         <div className="mt-10 border-t border-white/10 pt-6">
           <p className="text-xs text-gray-400">
-            © {currentYear} XDR Platform Comparison. All rights reserved.
+            © {currentYear} SIEMplyCompare. All rights reserved.
           </p>
         </div>
       </div>

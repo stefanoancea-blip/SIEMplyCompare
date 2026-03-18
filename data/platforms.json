@@ -65,7 +65,7 @@
     "sourceUrls": [
       "https://www.sophos.com/products/taegis"
     ],
-    "updatedAt": "2026-03-17"
+    "updatedAt": "2026-03-18"
   },
   {
     "id": "microsoft-sentinel",
@@ -112,7 +112,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days out of the box; longer retention is available as a paid add-on."
+        "note": "Standard data retention is 90 days; longer retention available as a paid add-on."
       }
     },
     "strengths": [
@@ -132,7 +132,7 @@
     "sourceUrls": [
       "https://www.microsoft.com/en-us/security/business/siem/microsoft-sentinel"
     ],
-    "updatedAt": "2026-03-17"
+    "updatedAt": "2026-03-18"
   },
   {
     "id": "crowdstrike-falcon",
@@ -179,7 +179,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days; longer retention requires add-on."
+        "note": "Standard data retention is 90 days; longer retention available as add-on."
       }
     },
     "strengths": [
@@ -199,7 +199,7 @@
     "sourceUrls": [
       "https://www.crowdstrike.com/products/"
     ],
-    "updatedAt": "2026-03-17"
+    "updatedAt": "2026-03-18"
   },
   {
     "id": "palo-alto-cortex-xsiam",
@@ -262,71 +262,6 @@
       "Advanced machine learning algorithms",
       "Focus on automation and orchestration"
     ],
-    "updatedAt": "2026-03-17"
-  },
-  {
-    "id": "rapid7",
-    "name": "Rapid7",
-    "description": "Rapid7 provides a comprehensive suite of security solutions designed to help organizations detect and respond to threats effectively. Their platform integrates various security tools to enhance visibility and streamline incident response.",
-    "websiteUrl": "https://www.rapid7.com/",
-    "tags": [
-      "XDR",
-      "SIEM",
-      "Cloud"
-    ],
-    "deploymentModel": "cloud",
-    "pricingModel": "subscription",
-    "targetCustomerSize": "midmarket",
-    "categories": {
-      "detection-response": {
-        "score": 4,
-        "note": "Strong detection and response capabilities."
-      },
-      "siem": {
-        "score": 5,
-        "note": "Robust SIEM features for threat detection."
-      },
-      "managed-soc-mdr": {
-        "score": 4,
-        "note": "Offers managed detection and response services."
-      },
-      "integrations": {
-        "score": 5,
-        "note": "Wide range of integrations with other tools."
-      },
-      "deployment-model": {
-        "score": 5,
-        "note": "Cloud-based deployment is flexible and scalable."
-      },
-      "pricing-model": {
-        "score": 4,
-        "note": "Subscription model is straightforward."
-      },
-      "target-customer-size": {
-        "score": 4,
-        "note": "Well-suited for midmarket and enterprise."
-      },
-      "log-storage": {
-        "score": 3,
-        "note": "Standard data retention is 90 days; longer retention may require additional cost."
-      }
-    },
-    "strengths": [
-      "Comprehensive security suite",
-      "Strong analytics and reporting",
-      "User-friendly interface",
-      "Excellent customer support"
-    ],
-    "weaknesses": [
-      "Can be expensive for smaller businesses",
-      "Complexity in some advanced features",
-      "Learning curve for new users"
-    ],
-    "differentiators": [
-      "Integrated threat intelligence",
-      "Focus on automation and orchestration",
-      "Strong community and support resources"
-    ],
-    "updatedAt": "2026-03-17"
+    "updatedAt": "2026-03-18"
   }
 ]

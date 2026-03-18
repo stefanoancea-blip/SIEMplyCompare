@@ -1,6 +1,6 @@
-# XDR Platform Comparison
+# SIEMplyCompare
 
-Compare Taegis XDR and competitor cybersecurity platforms. Browse platforms, compare two products side by side with category scores, and use AI to generate comparison documents you can export as Word or PDF.
+Compare SIEM and security platforms side by side. Browse platforms, compare two products side by side with category scores, and use AI to generate comparison documents you can export as Word or PDF.
 
 ## Features
 

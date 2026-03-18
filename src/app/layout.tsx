@@ -7,8 +7,8 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: "XDR Platform Comparison",
-  description: "Compare Taegis XDR and competitor cybersecurity platforms",
+  title: "SIEMplyCompare",
+  description: "Compare SIEM and security platforms side by side",
 };
 
 export default function RootLayout({

@@ -107,3 +107,30 @@ export async function PATCH(
     );
   }
 }
+
+export async function DELETE(
+  _request: NextRequest,
+  context: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id } = await context.params;
+    const data = await readFile(PLATFORMS_PATH, "utf-8");
+    const platforms = JSON.parse(data) as Platform[];
+    const index = platforms.findIndex((p) => p.id === id);
+    if (index === -1) {
+      return NextResponse.json(
+        { error: "Platform not found" },
+        { status: 404 }
+      );
+    }
+    platforms.splice(index, 1);
+    await writeFile(PLATFORMS_PATH, JSON.stringify(platforms, null, 2), "utf-8");
+    return new NextResponse(null, { status: 204 });
+  } catch (error) {
+    console.error("DELETE /api/admin/platforms/[id] failed:", error);
+    return NextResponse.json(
+      { error: "Failed to delete platform" },
+      { status: 500 }
+    );
+  }
+}

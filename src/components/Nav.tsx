@@ -24,7 +24,7 @@ export default function Nav() {
           href="/"
           className="shrink-0 text-lg font-semibold text-white hover:text-gray-200 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-nav"
         >
-          XDR Platform Comparison
+          SIEMplyCompare
         </Link>
 
         {/* Desktop nav */}
