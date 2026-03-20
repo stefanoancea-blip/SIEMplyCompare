@@ -65,7 +65,7 @@
     "sourceUrls": [
       "https://www.sophos.com/products/taegis"
     ],
-    "updatedAt": "2026-03-18"
+    "updatedAt": "2026-03-19"
   },
   {
     "id": "microsoft-sentinel",
@@ -112,7 +112,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days out of the box; longer retention requires additional cost."
+        "note": "Standard data retention is 90 days; longer retention available as a paid option."
       }
     },
     "strengths": [
@@ -132,7 +132,7 @@
     "sourceUrls": [
       "https://www.microsoft.com/en-us/security/business/siem/microsoft-sentinel"
     ],
-    "updatedAt": "2026-03-18"
+    "updatedAt": "2026-03-19"
   },
   {
     "id": "crowdstrike-falcon",
@@ -179,7 +179,7 @@
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days; longer retention requires add-on (LogScale)."
+        "note": "Standard data retention is 90 days; longer retention requires add-on."
       }
     },
     "strengths": [
@@ -199,7 +199,7 @@
     "sourceUrls": [
       "https://www.crowdstrike.com/products/"
     ],
-    "updatedAt": "2026-03-18"
+    "updatedAt": "2026-03-19"
   },
   {
     "id": "palo-alto-cortex-xsiam",
@@ -262,16 +262,16 @@
       "Advanced machine learning algorithms",
       "Focus on automation and orchestration"
     ],
-    "updatedAt": "2026-03-18"
+    "updatedAt": "2026-03-19"
   },
   {
     "id": "rapid7",
     "name": "Rapid7",
-    "description": "Rapid7 provides a comprehensive security platform offering solutions for vulnerability management, SIEM, and incident detection and response. It is known for its user-friendly interface and strong automation capabilities.",
+    "description": "Rapid7 provides a comprehensive security platform offering solutions for vulnerability management, detection and response, and SIEM. It is widely used for its user-friendly interface and strong integration capabilities.",
     "websiteUrl": "",
     "tags": [
-      "SIEM",
       "XDR",
+      "SIEM",
       "Vulnerability Management",
       "Cloud"
     ],
@@ -280,56 +280,122 @@
     "targetCustomerSize": "midmarket",
     "categories": {
       "detection-response": {
-        "score": 4,
-        "note": "Strong detection and response with effective EDR/XDR, but some advanced features require extra licensing."
+        "score": 5,
+        "note": "Strong detection and response capabilities with XDR and MDR offerings."
       },
       "siem": {
         "score": 4,
-        "note": "Strong SIEM features with effective detection and integrations, but advanced features and storage may require extra cost."
+        "note": "InsightIDR provides robust SIEM features."
       },
       "managed-soc-mdr": {
         "score": 4,
-        "note": "Strong managed detection and response with effective threat detection and integrations; some advanced features require extra licensing."
+        "note": "Offers managed detection and response services."
       },
       "integrations": {
-        "score": 4,
-        "note": "Strong integration ecosystem with broad third-party support."
+        "score": 5,
+        "note": "Extensive integrations with third-party tools and cloud services."
       },
       "deployment-model": {
-        "score": 2,
-        "note": "Limited on-premises deployment options; primarily cloud-focused."
+        "score": 4,
+        "note": "Primarily cloud-based, with some hybrid options."
       },
       "pricing-model": {
-        "score": 2,
-        "note": "Pricing is high for large organizations and log storage costs can escalate quickly."
+        "score": 4,
+        "note": "Subscription pricing is transparent and scalable."
       },
       "target-customer-size": {
         "score": 4,
-        "note": "Strong fit for SMB and mid-market; high pricing and storage costs may limit enterprise adoption."
+        "note": "Best suited for midmarket and some enterprise customers."
       },
       "log-storage": {
         "score": 3,
-        "note": "Standard data retention is 90 days; longer retention requires additional cost."
+        "note": "Standard data retention is 90 days; longer retention may require additional licensing."
       }
     },
     "strengths": [
-      "Intuitive and easy-to-use interface",
-      "Strong automation and orchestration features",
-      "Comprehensive vulnerability management",
-      "Wide integration ecosystem"
+      "User-friendly interface and easy deployment",
+      "Comprehensive detection and response features",
+      "Strong integration ecosystem",
+      "Effective vulnerability management"
     ],
     "weaknesses": [
-      "Log storage costs can escalate quickly",
-      "MDR capabilities less mature than some competitors",
-      "Some advanced features require additional licensing",
-      "May not scale as well for very large enterprises"
+      "Limited on-premises deployment options",
+      "May be costly for smaller organizations",
+      "Advanced customization can be complex",
+      "Some features require additional licensing"
     ],
     "differentiators": [
-      "Integrated vulnerability management and SIEM",
-      "User-friendly design for rapid onboarding",
-      "Strong automation for incident response",
-      "Broad third-party integrations"
+      "Unified platform for vulnerability management and SIEM",
+      "Rapid deployment and intuitive workflows",
+      "Strong managed detection and response services",
+      "Broad third-party integration support"
     ],
-    "updatedAt": "2026-03-18"
+    "updatedAt": "2026-03-19"
+  },
+  {
+    "id": "sumo-logic",
+    "name": "Sumo Logic",
+    "description": "Sumo Logic is a cloud-native machine data analytics platform providing real-time insights for security, operations, and business intelligence. It is widely used for log management, SIEM, and security analytics.",
+    "websiteUrl": "",
+    "tags": [
+      "SIEM",
+      "Cloud",
+      "Log Management",
+      "Analytics"
+    ],
+    "deploymentModel": "cloud",
+    "pricingModel": "usage-based",
+    "targetCustomerSize": "enterprise",
+    "categories": {
+      "detection-response": {
+        "score": 3,
+        "note": "Adequate SIEM and analytics, but EDR/XDR and incident response are not standout features."
+      },
+      "siem": {
+        "score": 5,
+        "note": "Comprehensive SIEM features"
+      },
+      "managed-soc-mdr": {
+        "score": 2,
+        "note": "Limited native MDR services"
+      },
+      "integrations": {
+        "score": 4,
+        "note": "Broad integration ecosystem"
+      },
+      "deployment-model": {
+        "score": 5,
+        "note": "Fully cloud-native"
+      },
+      "pricing-model": {
+        "score": 4,
+        "note": "Flexible, usage-based pricing"
+      },
+      "target-customer-size": {
+        "score": 4,
+        "note": "Best fit for midmarket and enterprise"
+      },
+      "log-storage": {
+        "score": 5,
+        "note": "Scalable, long-term cloud log storage"
+      }
+    },
+    "strengths": [
+      "Cloud-native scalability and reliability",
+      "Real-time analytics and dashboards",
+      "Strong log management and search capabilities",
+      "Wide range of integrations"
+    ],
+    "weaknesses": [
+      "Can become expensive at high data volumes",
+      "Limited on-premises deployment options",
+      "Advanced features may require steep learning curve"
+    ],
+    "differentiators": [
+      "True multi-tenant cloud architecture",
+      "Fast, scalable log ingestion and search",
+      "Continuous compliance and security analytics"
+    ],
+    "updatedAt": "2026-03-19"
   }
 ]
